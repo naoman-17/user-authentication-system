@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+body{
+    background: url("../images/img1.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.uas{
+    background-color: rgba(0,0,0,0.8);
+    width: 455px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 60px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    border-radius: 20%;
+    border: 2px solid white;
+}
+input{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 15px;
+    border: 2px solid rgb(1, 255, 234);
+}
+label{
+    color: rgb(17, 253, 234);
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.submit{
+    background-color: black;
+    color:white;
+    border: 2px solid grey;
+    padding: 10px;
+}
+span{
+    color: red;
+}
+.singup{
+    color: white;
+    padding-bottom: 20px;
+}

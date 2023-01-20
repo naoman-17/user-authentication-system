@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>join</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <div class="bfclr">
+        <div class="uas">
+            <div class="singup"><h2>Enter your details</h2>
+            </div>
+            <form action="login.html" autocomplete="off" onsubmit="return validation()">
+                <input type="text" id="" placeholder="First Name" required>
+                <br><br>
+                <input type="text" id="" placeholder="Last name" required>
+                <br><br>
+                <input type="email" id="" placeholder="Email Address" required>
+                <br><br>
+                <input type="password" id="pass" placeholder="Password">
+                <br>
+                <span id="vpass"></span>
+                <br>
+                <input type="password" id="cpass" placeholder="Confirm Password">
+                <br>
+                <span id="vcpass"></span>
+                <br>
+                <label for="r1">Male</label>
+                <input type="radio" name="r1" required>
+                <label for="r1">female</label>
+                <input type="radio" name="r1" required>
+                <br><br>
+                <input type="submit" class="submit" name="" id="">
+            </form>
+        </div>
+    </div>
+    <script type="text/javascript">
+        function validation() 
+        {
+            var xpass = document.getElementById('pass').value;
+            var ypass = document.getElementById('cpass').value;
+            if (xpass.length < 8) 
+            {
+                document.getElementById('vpass').innerHTML += "**Password length should be of 8**";
+                return false;
+            }
+                if (xpass != ypass) 
+                {
+                    document.getElementById('vcpass').innerHTML += "**Password not verified**";
+                    return false;
+                }
+            }
+    </script>
+</body>
+
+</html>
