@@ -7,6 +7,7 @@ body{
     background: url("../images/img2.jpg") no-repeat;
     background-size: cover;
     background-position: center;
+    height: 700px;
 }
 .uas{
     background-color: rgba(0,0,0,0.8);
@@ -45,4 +46,8 @@ input{
 .singup{
     color: green;
     text-decoration: none;
+}
+.forgot{
+    text-decoration: none;
+    color: white;
 }

@@ -16,3 +16,12 @@ body{
     color: black;
     border-radius: 10px;
 }
+nav{
+    text-align: left;
+}
+a{
+    text-decoration: none;
+    color: black;
+    background-color: red;
+    font-size: 18px;
+}

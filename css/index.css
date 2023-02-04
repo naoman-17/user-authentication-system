@@ -7,13 +7,14 @@ body{
     background: url("../images/img1.jpg") no-repeat;
     background-size: cover;
     background-position: center;
+    height: 700px;
 }
 .uas{
     background-color: rgba(0,0,0,0.8);
     width: 500px;
     margin: 0 auto;
     text-align: center;
-    margin-top: 60px;
+    margin-top: 40px;
     padding-top: 50px;
     padding-bottom: 40px;
     border-radius: 20%;
